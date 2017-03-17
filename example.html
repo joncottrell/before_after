@@ -1,3 +1,22 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="before_after.css">
+</head>
+<body>
+    <div class="before_after_slider" width="900" height="756">
+        <div class="before">
+	        <img src="https://s3.amazonaws.com/com.firenog/13.jpg" width="900" height="756" alt="before" />
+	    </div>
+        <div class="after">
+	        <img src="https://s3.amazonaws.com/com.firenog/13-edit.jpg" width="900" height="756"  alt="after" />
+        </div>
+        <div class="separator_line" />
+    </div>
+
+</body>
+		
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 <script type="text/javascript">
     var OFFSETX = $('.separator_line').offset().left;
 
@@ -24,3 +43,5 @@
         $(e.currentTarget).find('.separator_line').offset({left: init_split+OFFSETX});
     });	
 </script>
+
+</html>
